@@ -2,6 +2,8 @@
 
 External glow for CS2 written in Python. No injection, no driver. Uses ReadProcessMemory / WriteProcessMemory only.
 
+![preview](image.png)
+
 ---
 
 ## Requirements
@@ -60,7 +62,4 @@ m_Glow            = 0xCC0
 ## Disclaimer
 
 For educational purposes only.
-
-
-![preview](image.png)
 
