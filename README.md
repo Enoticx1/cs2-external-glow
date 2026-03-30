@@ -8,9 +8,8 @@ External glow for CS2 written in Python. No injection, no driver. Uses ReadProce
 ## Requirements
 
 - Windows
-- Python 3.11
-- CS2 running
-- Run as Administrator
+- Python
+- Cs2 running 
 
 No third-party dependencies. Only standard library.
 
