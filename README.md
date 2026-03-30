@@ -18,7 +18,7 @@ No third-party dependencies. Only standard library.
 ## Usage
 
 ```
-py -3.11 cs2glow.py
+python cs2glow.py
 ```
 
 ---
