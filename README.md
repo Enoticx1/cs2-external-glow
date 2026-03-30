@@ -1,9 +1,6 @@
 # cs2-external-glow
 
 External glow for CS2 written in Python. No injection, no driver. Uses ReadProcessMemory / WriteProcessMemory only.
-
-![preview](prewiew.png)
-
 ---
 
 ## Requirements
