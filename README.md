@@ -28,7 +28,7 @@ python cs2glow.py
 Edit the top of `cs2glow.py`:
 
 ```python
-GLOW_COLOR  = (0.0, 1.0, 0.5)   # RGB float, values from 0.0 to 1.0
+GLOW_COLOR  = (0.0, 1.0, 0.0)   # RGB float, values from 0.0 to 1.0
 TEAM_CHECK  = True               # True = skip teammates
 GLOW_RANGE  = 10000              # glow visibility range
 ```
