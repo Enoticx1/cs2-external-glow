@@ -99,12 +99,7 @@ class Memory:
 def apply_glow(mem, pawn, r, g, b):
     gp = pawn + m_Glow
     # float RGB at +0x8, +0xC, +0x10
-    mem.write(gp + 0x08, struct.pack("<f", r))
-    mem.write(gp + 0x0C, struct.pack("<f", g))
-    mem.write(gp + 0x10, struct.pack("<f", b))
     mem.write(gp + 0x30, struct.pack("<i", 3))       
-    mem.write(gp + 0x38, struct.pack("<i", 10000))
-    mem.write(gp + 0x3C, struct.pack("<i", 0))
     # packed RGBA: R | G<<8 | B<<16 | A<<24  (little-endian = RGBA bytes)
     mem.write(gp + 0x40, struct.pack("<BBBB",
         int(r*255), int(g*255), int(b*255), 255))
