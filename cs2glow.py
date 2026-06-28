@@ -11,14 +11,14 @@ TH32CS_SNAPMODULE    = 0x00000008
 TH32CS_SNAPMODULE32  = 0x00000010
 
 # Offsets  (update with a2x https://github.com/a2x/cs2-dumper/blob/main/output/offsets.hpp)
-dwEntityList      = 0x24B0258
-dwLocalPlayerPawn = 0x206A9E0
+dwEntityList      = 0x24E76A0
+dwLocalPlayerPawn = 0x2341698
 
-m_iHealth    = 0x354
-m_lifeState  = 0x35C
-m_iTeamNum   = 0x3F3
-m_hPawn      = 0x6C4
-m_Glow       = 0xCC0
+m_iHealth    = 0x34C
+m_lifeState  = 0x354
+m_iTeamNum   = 0x3EB
+m_hPawn      = 0x6BC
+m_Glow       = 0xDD8
 
 
 class Memory:
